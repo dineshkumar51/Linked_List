@@ -206,7 +206,6 @@ int isSorted(struct Node *p)
   return 1;
 }
 
-//  to remove duplicate element
 void remove_duplicate(struct Node *p)
 {
     struct Node *q = first->next;
